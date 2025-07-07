@@ -47,7 +47,8 @@ The goal of this project is to detect network attacks in traffic data using netw
 * Bar charts were created to compare the performance of different models across key metrics.
   
   Example of bar chart for F1 score:
-![Unknown-6](https://github.com/user-attachments/assets/856f1ecb-8e45-4f3b-bfb5-224d7a603fbd)
+
+![Unknown-15](https://github.com/user-attachments/assets/330a79f7-2f14-4a91-a7e5-14e86b2f61b1)
 
 
 
