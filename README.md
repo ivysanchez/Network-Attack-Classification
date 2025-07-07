@@ -16,14 +16,14 @@ The goal of this project is to detect network attacks in traffic data using netw
 * **Type**: Tabular CSV file
    * **Input**: CSV format file containing network packet features
    * **Output**: Target variable: label
-0 = Normal
-1 = Attack
+    * 0 = Normal
+    * 1 = Attack
 * **Size**: The original dataset had 82,332 instances and 45 features.
 * The dataset is relatively balanced:
 
-Normal: ~37,000 samples
+    * Normal: ~37,000 samples
 
-Attack: ~45,332 samples (9 types)
+    * Attack: ~45,332 samples (9 types)
 * **Instances (Train, Test, Validation Split)**: The data was split into train, validation, and test sets (60/20/20). This occured after every three models.
 
 
@@ -134,7 +134,7 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 #### Performance Evaluation
 * To evaluate model performance:
   1. Ensure the models have been trained (by completing the training steps).
-  2. Run the notebook NAC-Compairon-Evaluation (5).ipynb . This code is to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance. It also showd the performance on the validation set and the final summary analysis.
+  2. Run the notebook NAC-Comparison-Evaluation (5).ipynb . This code is to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance. It also showd the performance on the validation set and the final summary analysis.
 
 
 ## **Citations**
