@@ -11,6 +11,7 @@ The goal of this project is to detect network attacks in traffic data using netw
 ## Summary of Work Done
 
 
+
 ### Data
 * **Dataset**: UNSW-NB15 dataset
 * **Type**: Tabular CSV file
@@ -33,16 +34,21 @@ The goal of this project is to detect network attacks in traffic data using netw
 * Feature engineering: New features were created to potentially capture more complex relationships within the data:
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics.
+<img width="711" alt="Screenshot 2025-07-07 at 4 59 10 AM" src="https://github.com/user-attachments/assets/ba5be27b-6c66-493e-a552-15e6d07c96e7" />  
+
+
+![Unknown](https://github.com/user-attachments/assets/4070ec0b-8bfd-496c-95a4-805e68721449)
+
+* A plot was used to display feature importance through correlation with the target variable:
   
+  ![Unknown-11](https://github.com/user-attachments/assets/b9aa9444-47c5-4549-9326-4e0ff75f18ac)
 
-
-* A bar chart was generated to display the top 13 most important features identified by Random Forest feature 
 
 * Bar charts were created to compare the performance of different models across key metrics.
   
   Example of bar chart for F1 score:
-  
- * fixxxxxxxxxx
+![Unknown-6](https://github.com/user-attachments/assets/856f1ecb-8e45-4f3b-bfb5-224d7a603fbd)
+
 
 
 ### Problem Formulation
