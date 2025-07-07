@@ -71,9 +71,10 @@ XGBoost
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one tables
 
-* Bar charts were also generated to compare model performance across the different metrics.
+* Bar charts were also generated to compare model performance across the different metrics along with the confusion matrices:
+  ![Unknown-16](https://github.com/user-attachments/assets/3f13a41c-6f02-4796-af4d-2309d262c337)
 
-  * fixxxxxxx
+
 
 ### Conclusions
 * Decision tree models showed to work best with this data set as Logistic Regression had the lowest performance consistently across all metrics.
