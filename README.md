@@ -2,7 +2,7 @@
 
 # Network-Attack-Classification Project
 
-This repository presents a project that aims to classify network traffic sessions as either normal or attack using the UNSW-NB15 benchmark dataset. The classification task leverages tabular data and employs various supervised machine learning models.
+This repository presents a project that aims to classify network traffic sessions as either normal or attack using the UNSW-NB15 benchmark dataset. The classification task leverages tabular data and employs various supervised machine learning models. The UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre and it holds raw network packet features (https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15/data).
 
 ## Overview
 
@@ -55,10 +55,7 @@ The goal of this project is to detect network attacks in traffic data using netw
 ### Problem Formulation
 * Input: A set of features extracted from network packets.
 * Output: A binary classification (0 for normal, 1 for attack).
-* Models: Three different models were evaluated:
-Logistic Regression
-Random Forest
-XGBoost
+* Models: Three different models were evaluated- Logistic Regression, Random Forest, and XGBoost
 
 ### Training
 
