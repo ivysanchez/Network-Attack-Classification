@@ -15,9 +15,7 @@ The goal of this project is to detect network attacks in traffic data using netw
 * **Dataset**: UNSW-NB15 dataset
 * **Type**: Tabular CSV file
    * **Input**: CSV format file containing network packet features
-   * **Output**: Target variable: label
-    * 0 = Normal
-    * 1 = Attack
+   * **Output**: Target variable: label (0 = Normal, 1 = Attack)
 * **Size**: The original dataset had 82,332 instances and 45 features.
 * The dataset is relatively balanced:
 
