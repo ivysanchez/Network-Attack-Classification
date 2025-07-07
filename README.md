@@ -82,7 +82,10 @@ Show/compare results in one tables
 * Decision tree models showed to work best with this data set as Logistic Regression had the lowest performance consistently across all metrics.
 * Feature engineering improved the performance of all models.
 * Random Forest and XGBoost had similar performaces with high metric outputs, but XGBoost was slightly better performing.
-* The final XGBoost model with feature engineering demonstrates high accuracy and a strong balance between precision and recall(F1 score), making it suitable for network attack detections.
+* The final XGBoost model with feature engineering demonstrates high accuracy and a strong balance between precision and recall(F1 score), making it suitable for network attack detections. See final results on validation set below.
+<img width="615" alt="Screenshot 2025-07-07 at 8 16 15 AM" src="https://github.com/user-attachments/assets/c3d12e08-0ccf-4b8f-955d-cb8161fcb11c" />
+  ![Unknown-25](https://github.com/user-attachments/assets/046ada31-8235-4cc4-9d03-0fb5c09cebfd)
+
 
 ### Future Work
 * Explore more advanced feature engineering techniques to further improve model performance.
