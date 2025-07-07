@@ -18,13 +18,14 @@ The goal of this project is to detect network attacks in traffic data using netw
    * **Output**: Target variable: label
 0 = Normal
 1 = Attack
-* **Size**: The original dataset had 82,332 instances and 45 features. The dataset is relatively balanced:
+* **Size**: The original dataset had 82,332 instances and 45 features.
+* The dataset is relatively balanced:
 
 Normal: ~37,000 samples
-Attack: ~45,332 samples
-* **Instances (Train, Test, Validation Split)**: The data was split into an 80% training set and a 20% testing set, with no separate validation set used in this initial exploration.
 
-* fixxxxx
+Attack: ~45,332 samples (9 types)
+* **Instances (Train, Test, Validation Split)**: The data was split into train, validation, and test sets (60/20/20). This occured after every three models.
+
 
 #### Preprocessing / Clean Up
 * Missing values: The dataset contained no missing values.
@@ -121,20 +122,19 @@ Kaggle: Access the dataset and potentially explore other related datasets.
     print("Path to dataset files:", path)
 
 
-  * fixxxxxxx
 * Preprocessing:
-The preprocessing steps are already included in the phishingdetection.ipynb notebook. Run the code cells related to data cleaning, feature scaling, feature selection, and feature engineering before training the models.
+ Run the NAC-Data-Cleaning (2).ipynb notebook which contains code cells related to datarescaling and categorical encoding.
 
 ### Training
 * To train the models:
-  1. Open the phishingdetection.ipynb notebook.
-  2. Run all cells up to the "Iterative Modeling" section.
-  3. Execute the code in the "Iterative Modeling" and "Model Parameter Tuning" sections to train and evaluate different models and optimize hyperparameters.
+  1. Open the NAC-Initial-Modeling (3).ipynb notebook.
+  2. Run all cells to see the metrics at the baseline, then open the NAC-Model-Traing-Testing (4).ipynb notebook.
+  3. Execute the code in the NAC-Model-Trainingg-Testing (4).ipynb notebook to train and evaluate the three different models after changess to the dataset were made.
 
 #### Performance Evaluation
 * To evaluate model performance:
   1. Ensure the models have been trained (by completing the training steps).
-  2. Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections.These sections contain code to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
+  2. Run the notebook NAC-Compairon-Evaluation (5).ipynb . This code is to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance. It also showd the performance on the validation set and the final summary analysis.
 
 
 ## **Citations**
