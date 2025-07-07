@@ -67,6 +67,11 @@ The goal of this project is to detect network attacks in traffic data using netw
 ### Performance Comparison
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one tables
+![Unknown-17](https://github.com/user-attachments/assets/8b5223c9-ffb9-4169-8a75-8d2d4ebce13b)
+![Unknown-18](https://github.com/user-attachments/assets/8e04f796-915d-4e18-bcc0-73664a759346)
+![Unknown-24](https://github.com/user-attachments/assets/77cb8487-e000-4945-909c-0def9679b031)
+![Unknown-6](https://github.com/user-attachments/assets/8c62ee0f-3bf3-40d1-88f8-c586238e37fe)
+
 
 * Bar charts were also generated to compare model performance across the different metrics along with the confusion matrices:
   ![Unknown-16](https://github.com/user-attachments/assets/3f13a41c-6f02-4796-af4d-2309d262c337)
