@@ -74,7 +74,8 @@ Show/compare results in one tables
 
 
 * Bar charts were also generated to compare model performance across the different metrics along with the confusion matrices:
-  ![Unknown-25](https://github.com/user-attachments/assets/7495172c-0179-4ea6-84bc-899727768f1d)
+
+![Unknown-16](https://github.com/user-attachments/assets/04828431-d456-4b84-925c-f4257cc4ad34)
 
 
 
