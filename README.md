@@ -1,3 +1,5 @@
+![](UTA-DataScience-Logo.png)
+
 # Network-Attack-Classification Project
 
 This repository presents a project that aims to classify network traffic sessions as either normal or attack using the UNSW-NB15 benchmark dataset. The classification task leverages tabular data and employs various supervised machine learning models.
