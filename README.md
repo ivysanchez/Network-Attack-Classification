@@ -1,6 +1,6 @@
 ![](UTA-DataScience-Logo.png)
 
-# Network-Attack-Classification Project
+# Network Attack Classification Project
 
 This repository presents a project that aims to classify network traffic sessions as either normal or attack using the UNSW-NB15 benchmark dataset. The classification task leverages tabular data and employs various supervised machine learning models. The UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre and it holds raw network packet features (https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15/data).
 
@@ -106,7 +106,7 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 * NAC-Initial-Modeling (3).ipynb: Initial results of dataset after modeling Logistic Regression, XGBoost, and Random Forest before any changes to the data frame.
 * NAC-Model-Training-Testing (4).ipynb: Feature selection, and feature engineering with the models retrained after each.
 * NAC-Comparison-Evaluation (5).ipynb: Loads all 9 trained models and compares results, and evaluates performance on validation sample.
-* Network-Attack-Classification-full (6): shows all the .ipynbs files above put together
+* Network-Attack-Classification-full (6): shows all the .ipynb files above put together
  
 ### Software Setup
 * Required Packages: This project uses the following Python packages:
@@ -121,7 +121,7 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 
 
 ### Data
-* The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
+* The dataset used in this project, "UNSW_NB15" is available on Kaggle. You can download it directly using the following code:
   
     import kagglehub
   
@@ -136,13 +136,13 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 ### Training
 * To train the models:
   1. Open the NAC-Initial-Modeling (3).ipynb notebook.
-  2. Run all cells to see the metrics at the baseline, then open the NAC-Model-Traing-Testing (4).ipynb notebook.
-  3. Execute the code in the NAC-Model-Trainingg-Testing (4).ipynb notebook to train and evaluate the three different models after changess to the dataset were made.
+  2. Run all cells to see the metrics at the baseline, then open the NAC-Model-Training-Testing (4).ipynb notebook.
+  3. Execute the code in the NAC-Model-Training-Testing (4).ipynb notebook to train and evaluate the three different models after changess to the dataset were made.
 
 #### Performance Evaluation
 * To evaluate model performance:
   1. Ensure the models have been trained (by completing the training steps).
-  2. Run the notebook NAC-Comparison-Evaluation (5).ipynb . This code is to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance. It also showd the performance on the validation set and the final summary analysis.
+  2. Run the notebook NAC-Comparison-Evaluation (5).ipynb . This code is to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance. It also showed the performance on the validation set and the final summary analysis.
 
 
 ## **Citations**
