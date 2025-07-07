@@ -74,7 +74,8 @@ Show/compare results in one tables
 
 
 * Bar charts were also generated to compare model performance across the different metrics along with the confusion matrices:
-  ![Unknown-16](https://github.com/user-attachments/assets/3f13a41c-6f02-4796-af4d-2309d262c337)
+  ![Unknown-25](https://github.com/user-attachments/assets/7495172c-0179-4ea6-84bc-899727768f1d)
+
 
 
 
@@ -84,7 +85,9 @@ Show/compare results in one tables
 * Random Forest and XGBoost had similar performaces with high metric outputs, but XGBoost was slightly better performing.
 * The final XGBoost model with feature engineering demonstrates high accuracy and a strong balance between precision and recall(F1 score), making it suitable for network attack detections. See final results on validation set below.
 <img width="615" alt="Screenshot 2025-07-07 at 8 16 15 AM" src="https://github.com/user-attachments/assets/c3d12e08-0ccf-4b8f-955d-cb8161fcb11c" />
-  ![Unknown-25](https://github.com/user-attachments/assets/046ada31-8235-4cc4-9d03-0fb5c09cebfd)
+
+
+![Unknown-25](https://github.com/user-attachments/assets/dbb0d898-bbf9-41e4-986f-b42a47da7682)
 
 
 ### Future Work
